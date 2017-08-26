@@ -1,14 +1,14 @@
 //Testing the DC Motors
 //Define Pins
 //Motor A
-int enableA = 10;
-int pinA1 = 2;
-int pinA2 = 3;
+#define enableA  10;
+#define pinA1 2;
+#define pinA2 3;
 //Motor B
-int enableB = 9;
-int pinB1 = 4;
-int pinB2 = 5;
-int led = 13;
+#define enableB 9;
+#define pinB1 4;
+#define pinB2 5;
+#define led 13;
 
 void setup() {
   Serial.begin (9600);
